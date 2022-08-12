@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -40,10 +46,27 @@
         </form>
 
         <p>Sat 2022/07/02</p>
-        <h2><span id="temp"></span> °C</h2>
-        <div>Humidity: <span id="humidity"></span> %</div>
-        <div>Wind: <span id="wind"></span> km/h</div>
-        <br />
+
+        <div class="row">
+          <div class="col-6">
+            <div class="float-left">
+              <strong id="temp"></strong>
+              <span class="units">
+                <a href="#" id="celsius-link" class="active">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a>
+              </span>
+            </div>
+            <div id="weatherdescription">
+              <img src="" alt="Clear" id="icon" class="float-left" width="50" />
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div><span id="description"></span></div>
+            <div>Humidity: <span id="humidity"></span> %</div>
+            <div>Wind: <span id="wind"></span> km/h</div>
+          </div>
+        </div>
 
         <div class="row">
           <div class="col-2">
