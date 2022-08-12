@@ -1,6 +1,6 @@
 body {
   color: #00587a;
-  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Gloria Hallelujah", cursive;
   background-image: url(https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
 }
@@ -72,22 +72,22 @@ h1 {
 
 footer {
   text-align: center;
-  color: #900048;
+  color: #ff5722;
   font-size: small;
   font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 .git {
-  color: azure;
+  color: #f3bc77;
   text-decoration: none;
 }
 
 .net {
-  color: azure;
+  color: #f3bc77;
   text-decoration: none;
 }
 
 a:hover {
-  color: #900048;
+  color: #ff5722;
 }
