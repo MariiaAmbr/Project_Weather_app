@@ -10,8 +10,10 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
     <title>Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,13 +38,6 @@
           <button class="btn btn-primary search-button" type="submit">
             Search
           </button>
-          <button
-            class="btn btn-primary location-button"
-            id="locationButton"
-            type="submit"
-          >
-            Current
-          </button>
         </form>
 
         <p>Sat 2022/07/02</p>
@@ -62,71 +57,17 @@
           </div>
 
           <div class="col-6">
+            <div class="descriptionofweather">
             <div><span id="description"></span></div>
             <div>Humidity: <span id="humidity"></span> %</div>
             <div>Wind: <span id="wind"></span> km/h</div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                Sut
-                <br />
-                20°C / 30°C
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                Mon
-                <br />
-                17°C / 33°C
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                Tue
-                <br />
-                20°C / 33°C
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                Wed
-                <br />
-                21°C / 31°C
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                Thu
-                <br />
-                18°C / 25°C
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                Fri
-                <br />
-                15°C / 25°C
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-
+       <div class="weather-forecast" id="forecast">
+        </div>
+        </div>
+        
     <script src="script.js"></script>
     <footer>
       <strong>
